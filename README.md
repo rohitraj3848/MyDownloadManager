@@ -3,7 +3,7 @@ download manager using java
 
 
 The Download Manager uses http 1.1 and configured only to download from http servers.
-it means we can get a a specified chunkof data so pause and resume are allowed.
+ we can get a specified chunk of data in http 1.1 protocol so pause and resume are allowed.
 The Download Manager is broken into a few classes for natural separation of functional
 components. These are the Download, DownloadsTableModel, ProgressRenderer, and
 DownloadManager classes, respectively. The DownloadManager class is responsible for the
@@ -38,3 +38,5 @@ AbstractTableModel and implements the Observer interface.
 DownloadManager Class ->  The DownloadManager class is responsible for creating and running the Download Manager’s GUI. This class has a main( )method declared, so on execution it will be invoked first. The main( ) method instantiates a
 new DownloadManager class instance and then calls its show( ) method, which causes it to
 be displayed.
+
+comments are added to code to make it more lucid
